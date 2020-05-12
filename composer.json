@@ -1,0 +1,24 @@
+{
+  "name": "diga/diga-commands-plugin",
+  "description": "Consent Manger",
+  "version": "v0.0.1",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "authors": [{
+    "name": "ditegra GmbH"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Diga\\DigaCommands\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Diga\\DigaCommands\\DigaCommands",
+    "shopware-min-version": "6.1.0",
+    "copyright": "(c) ditegra GmbH",
+    "label": {
+      "de-DE": "ditegra GmbH Commands",
+      "en-GB": "ditegra GmbH Commands"
+    }
+  }
+}
